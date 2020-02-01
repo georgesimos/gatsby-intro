@@ -21,7 +21,7 @@ const NavLink = styled(Link)`
   }
 `;
 
-const Header = ({ children }) => {
+const Header = () => {
   return (
     <header
       css={css`

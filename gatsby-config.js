@@ -1,3 +1,7 @@
 module.exports = {
-  plugins: ['gatsby-plugin-emotion'],
+  siteMetadata: {
+    title: 'Gatsby Intro',
+    description: 'A website to understand the basic of Gatsby',
+  },
+  plugins: ['gatsby-plugin-emotion', 'gatsby-plugin-react-helmet'],
 };
