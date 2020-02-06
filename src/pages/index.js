@@ -3,6 +3,7 @@ import Layout from '../components/layout';
 import usePosts from '../hooks/use-posts';
 import Hero from '../components/hero';
 import PostPreview from '../components/post-preview';
+import Insta from '../components/insta';
 
 export default () => {
   const posts = usePosts();
@@ -16,6 +17,7 @@ export default () => {
           <PostPreview key={post.slug} post={post} />
           // <pre>{JSON.stringify(post, null, 2)}</pre>
         ))}
+        <Insta />
       </Layout>
     </>
   );
