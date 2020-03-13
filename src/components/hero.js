@@ -14,7 +14,7 @@ const ImageBackground = styled(BackgroundImage)`
 `;
 
 const TextBox = styled('div')`
-  background-image: linear-gradient(to top, #ddbbffdd 2rem, #ddbbff00);
+  background-image: linear-gradient(to top, red 2rem, #ddbbff00);
   display: flex;
   flex-direction: column;
   height: 100%;
